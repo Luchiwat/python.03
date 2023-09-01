@@ -1,0 +1,8 @@
+Person = input('จำนวนคน : ')
+Money = input('จำนวนเงิน : ')
+print('-------------------------')
+print(f'จำนวนเงิน {float(Money):.2f} บาท จำนวนคน {Person} คน หารคนละ {(float(Money)/int(Person)):.2f} บาท')
+print('จำนวนเงิน',round(float(Money),2),'บาท จำนวนคน',Person,'คน หารคนละ',round(float(Money)/int(Person),2),'บาท')
+print('จำนวนเงิน '+str(round(float(Money),2))+' บาท จำนวนคน '+Person+' คน หารคนละ '+str(round(float(Money)/int(Person),2))+' บาท')
+print('จำนวนเงิน {:.2f} บาท จำนวนคน {} คน หารคนละ {:.2f} บาท'.format(float(Money),Person,float(Money)/int(Person)))
+print('จำนวนเงิน %.2f บาท จำนวนคน %s คน หารคนละ %.2f บาท'%(float(Money),Person,float(Money)/int(Person)))
